@@ -19,8 +19,8 @@ spec:
         - containerPort: 80
         resources:
           requests:
-            cpu: "50m"    # CPU request is set to 50 milliCPU (0.05 CPU core)
-            memory: "50Mi" # Memory request is set to 50 Mebibytes
+            cpu: "20m"    # CPU request is set to 50 milliCPU (0.05 CPU core)
+            memory: "20Mi" # Memory request is set to 50 Mebibytes
 ---
 apiVersion: v1
 kind: Service
